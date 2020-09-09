@@ -1,0 +1,19 @@
+title: Introduction to Programming in C
+description: >-
+  Introductory course where we are going to see how to compile and execute C
+  programs, and the main types of variables and flow control statements of this
+  programming language.
+template:
+  repo: introduction-to-programming-in-c-template
+  name: introduction-to-programming-in-c
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
